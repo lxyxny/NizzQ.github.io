@@ -86,6 +86,16 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	display: 
 }
 */
+
+/* Loading */
+.loading-scene .loading{
+	display: none;
+}
+
+.background-cont .bg-image {
+	background: url('https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657')
+}
+
 /* HUD */
 .info-key-cont {
 	display: none;
@@ -97,6 +107,7 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 
 .hp {
 	margin-right: 20%;
+	transform: unset;
 }
 
 .hp-title {
@@ -104,7 +115,8 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 }
 
 .state {
-	margin-left: 36%;
+	margin-left: 37%;
+	transform: unset;
 }
 
 .cont-endurance {
@@ -116,8 +128,10 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 }
 
 .weapons-cont {
+	position: fixed;
 	margin-right: 46.5%;
 	margin-bottom: 3%;
+	transform: unset;
 }
 
 .instruction {
@@ -152,15 +166,14 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 
 .progress-lvl {
 	visibility: visible;
-	margin-right: -390%;
+	margin-right: -425%;
 	margin-top: -10% !important;
-
 }
 
 /* Timer and Score */
 .timer{
 	position: fixed;
-	right: 783px;
+	right: 898px;
 }
 
 .team-score .label {
