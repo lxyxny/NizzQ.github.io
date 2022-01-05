@@ -28,10 +28,6 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	opacity: 1;
 }
 
-.live-streams .head {
-	opacity: 1 !important;
-}
-
 /* Lobby */
 .promo-link-btn {
 	display: none !important;
