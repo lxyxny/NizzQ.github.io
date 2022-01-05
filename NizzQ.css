@@ -18,6 +18,20 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	display: none;
 }
 
+/* Stream */
+.live-streams {
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.live-streams:hover {
+	opacity: 1;
+}
+
+.live-streams .head {
+	opacity: 1 !important;
+}
+
 /* Lobby */
 .promo-link-btn {
 	display: none !important;
@@ -81,11 +95,10 @@ Another BG: https://media.discordapp.net/attachments/529192409305710602/90244384
 	margin-top: 9%;
 }
 
-/*
-.icon-btn:nth-child(1) {
-	display: 
+.play:before {
+	content: "css by NizzQ";
+	margin-right: 1180px;
 }
-*/
 
 /* Loading */
 .loading-scene .loading{
