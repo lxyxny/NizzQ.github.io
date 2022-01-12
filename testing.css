@@ -1,0 +1,373 @@
+/*
+Kirka.io Simple CSS
+Made By: NizzQ
+*/
+
+/* Font */
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+}
+
+* {
+    font-family: gamefont;
+}
+
+/*Background */
+.pattern-bg {
+	background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
+    width: 100%;
+}
+
+/*
+Another BG: https://media.discordapp.net/attachments/529192409305710602/902443840387026944/oriental-tiles.png
+			https://media.discordapp.net/attachments/529192409305710602/902459294367219712/papers.png?width=1051&height=657
+*/
+
+.bg-radial {
+	display: none;
+}
+
+/* Animation */
+@keyframes container {
+	0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Stream */
+.live-streams {
+	opacity: 0;
+	transition-duration: 0.5s;
+}
+
+.live-streams:hover {
+	opacity: 1;
+}
+
+.live-streams .head {
+	opacity: 1 !important;
+}
+
+
+/* Lobby */
+.mobile-fullscreen {
+	background: rgba(0,0,0,0) !important;
+}
+
+.background {
+	background: rgba(0,0,0,0) !important;
+}
+
+.view {
+	backdrop-filter: blur(5px);
+}
+
+.container {
+	display: block !important;
+	animation: container 0.5s;
+}
+
+.promo-link-btn {
+	display: none !important;
+}
+
+.interface .logo {
+	display: none;
+}
+
+.soc-group[data-v-3c44abf2] {
+	display: none;
+}
+
+.systems {
+	margin-left: 5% !important;
+}
+
+.moneys {
+	position: fixed;
+	right: unset;
+	left: 83% !important;
+}
+
+.right-icons {
+	transform:translateX(90%);
+    flex-direction:column;
+}
+
+.right-icons .inventory-card {
+	-webkit-transform: translateX(-38px);
+    transform: translateX(-38px);
+	transition: ease-in-out 0.4s;
+}
+
+.inventory-card:hover {
+    transform: translateX(-140px);
+}
+
+.right-icons .icon-btn {
+	display: block;
+	position: absolute;
+	right: 22%;
+	top: 132%;
+	width: 100%;
+	transition: ease-in-out 0.4s;
+}
+
+.right-icons .icon-btn:hover {
+	transform: translateX(-100px);
+}
+
+.right-icons .svg-icon[data-v-b8de1e14] {
+	margin-left: -98%;
+	margin-bottom: -30%;
+}
+
+.right-icons .text-icon {
+	margin-right: -30%;
+	margin-top: 9%;
+}
+
+.left-icons .icon-btn {
+	display: block;
+    position: absolute;
+    width: auto;
+    height: auto;
+    transition: ease-in-out 0.2s;
+    right: 84%;
+    top: 118%;
+    opacity: 0;
+}
+
+.left-icons .icon-btn:hover {
+    transform: scale(1.2)
+}
+
+#icon-store {
+	background: transparent !important;
+	border-top: transparent !important;
+	border-bottom: transparent !important;
+	box-shadow: none !important;
+	height: 15%;
+}
+
+.icon-btn:nth-child(2) {
+	background: transparent;
+	border-top: transparent;
+	border-bottom: transparent;
+	box-shadow: none;
+	height: 17%;
+}
+
+.icon-btn:nth-child(3) {
+	background: transparent;
+	border-bottom: transparent;
+	border-top: transparent;
+	box-shadow: none;
+	height: 14.5%;
+}
+
+.icon-btn[style="--i:3;"] {
+	height: 11%;
+}
+
+#icon-store:hover {
+	border-top: transparent;
+    background-position-x: 0% !important;
+}
+
+.icon-btn:nth-child(2):hover {
+	border-top: transparent;
+}
+
+.icon-btn:nth-child(3):hover {
+	border-top: transparent;
+}
+
+.icon-btn:hover>.wrapper[data-v-45658db6] {
+    transform: unset;
+}
+
+.left-interface {
+    display: inline-block;
+    left: 42%;
+    width: 400px;
+    height: 400px;
+    top: inherit;
+    bottom: 70px
+}
+
+.left-icons:after {
+	position: absolute;
+    display: inline-block;
+    content: url(https://media.discordapp.net/attachments/529192409305710602/902513553318219806/arrow2.png);
+    top: 430px;
+    left: -50px;
+    transition: ease-in-out 0.3s;
+    border-radius: 360px;
+}
+
+.left-icons:hover #icon-store:nth-child(1) {
+    margin-top: -108px;
+    margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn:nth-child(2) {
+    margin-top: -10px;
+    margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn:nth-child(3) {
+    margin-top: 100px;
+    margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn[style="--i:3;"] {
+    margin-top: 200px;
+    margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn:nth-child(5) {
+    margin-top: 190px;
+    margin-right: -120px;
+}
+
+.left-icons:hover .icon-btn {
+    opacity: 1 !important;
+}
+
+#auth-user {
+	background: transparent !important;
+}
+
+.auth-form {
+	width: 70%;
+	margin-left: 0% !important;
+	background: transparent !important;
+	border-bottom: transparent !important;
+	border-top: transparent !important;
+	box-shadow: none !important;
+}
+
+.container-card {
+	background: transparent !important;
+	border: transparent !important;
+	box-shadow: none !important;
+	animation: container 0.5s;
+}
+
+.container-card .close {
+	display: none;
+}
+
+.wrapper-modal {
+	backdrop-filter: blur(5px);
+}
+
+.card-1{
+	display: block !important;
+	margin-top: 20% !important;
+	background: transparent !important;
+	border-bottom: transparent !important;
+	border-top: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Loading */
+.loading-scene .loading{
+	display: none;
+}
+
+.background-cont .bg-image {
+	background: url('https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657')
+}
+
+/* HUD */
+.mini-map-cont .name {
+	display: none;
+}
+
+.info-key-cont {
+	display: none;
+}
+
+.list-weapons {
+	display: none !important;
+}
+
+.cont-hp {
+	display: none;
+}
+
+.hp-title {
+	background: transparent !important;
+	font-size: 62px !important;
+	margin-bottom: 50%;
+	margin-left: -10%;
+}
+
+.state {
+	margin-left: 36%;
+}
+
+.cont-endurance {
+	margin-right: 85%;
+	margin-left: -9.5%;
+	margin-bottom: -1% !important;
+}
+
+.mWwn {
+	display: none !important;
+}
+
+.weapons-cont {
+	margin-right: 35%;
+	margin-bottom: 12.5%;
+}
+
+.instruction {
+	display: none !important;
+}
+
+.kill-death {
+	position: fixed;
+	right: 1px;
+	bottom: 2%;
+	left: unset !important;
+	top: unset !important;
+}
+
+/* Chat */
+.chat {
+	margin-bottom: -4%;
+}
+
+/* Profile */
+.profile .avatar-info, .profile .level, .exp-values {
+	display: none;
+}
+
+.user-info {
+	visibility: hidden;
+}
+
+.progress-lvl {
+	visibility: visible;
+	margin-right: -390%;
+	margin-top: -10% !important;
+}
+
+/* Timer and Score */
+.timer{
+	position: fixed;
+	right: 783px;
+}
+
+.team-score .label {
+	margin: 26.5px;
+	margin-left: 60px;
+	margin-right: 60px;
+}
