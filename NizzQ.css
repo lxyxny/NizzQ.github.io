@@ -2,13 +2,13 @@
 Kirka.io Simple CSS
 Made By: NizzQ
 
-Recommended resolution: 1920x1680 (Fullscreen)
+Recommended Resolution: 1920x1080 (Fullscreen)
 */
 
 /*Background */
 .pattern-bg {
 	background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
-        width: 100%;
+    width: 100%;
 }
 
 .bg-radial {
@@ -25,6 +25,11 @@ Recommended resolution: 1920x1680 (Fullscreen)
 	opacity: 1;
 }
 
+.live-streams .head {
+	opacity: 1 !important;
+}
+
+
 /* Lobby */
 .promo-link-btn {
 	display: none !important;
@@ -36,16 +41,6 @@ Recommended resolution: 1920x1680 (Fullscreen)
 
 .soc-group[data-v-3c44abf2] {
 	display: none;
-}
-
-.systems {
-	margin-left: 5% !important;
-}
-
-.moneys {
-	position: fixed;
-	right: unset;
-	left: 83% !important;
 }
 
 .right-icons {
@@ -90,16 +85,7 @@ Recommended resolution: 1920x1680 (Fullscreen)
 
 .play:before {
 	content: "css by NizzQ";
-	margin-right: 1385px;
-}
-
-/* Loading */
-.loading-scene .loading{
-	display: none;
-}
-
-.background-cont .bg-image {
-	background: url('https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657')
+	margin-right: 30px;
 }
 
 /* HUD */
@@ -113,7 +99,6 @@ Recommended resolution: 1920x1680 (Fullscreen)
 
 .hp {
 	margin-right: 20%;
-	transform: unset;
 }
 
 .hp-title {
@@ -121,8 +106,7 @@ Recommended resolution: 1920x1680 (Fullscreen)
 }
 
 .state {
-	margin-left: 37%;
-	transform: unset;
+	margin-left: 36%;
 }
 
 .cont-endurance {
@@ -134,18 +118,16 @@ Recommended resolution: 1920x1680 (Fullscreen)
 }
 
 .weapons-cont {
-	position: fixed;
 	margin-right: 46.5%;
 	margin-bottom: 3%;
-	transform: unset;
 }
 
 .instruction {
 	display: none !important;
 }
 
-.mini-map-cont {
-	display: none;
+.map-cont {
+	display: none !important;
 }
 
 .kill-death {
@@ -172,14 +154,14 @@ Recommended resolution: 1920x1680 (Fullscreen)
 
 .progress-lvl {
 	visibility: visible;
-	margin-right: -425%;
+	margin-right: -430%;
 	margin-top: -10% !important;
 }
 
 /* Timer and Score */
 .timer{
 	position: fixed;
-	right: 898px;
+	right: 783px;
 }
 
 .team-score .label {
