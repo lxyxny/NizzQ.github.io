@@ -1,8 +1,9 @@
 /*
 Kirka.io Simple CSS
 Made By: NizzQ
+Last Updated: Jan 20 2022
 
-Recommended Resolution: 1920x1080 (Fullscreen)
+Recommended Resolution: 1920x1080 FULLSCREEN
 */
 
 /*Background */
@@ -13,6 +14,11 @@ Recommended Resolution: 1920x1080 (Fullscreen)
 
 .bg-radial {
 	display: none;
+}
+
+/*	Ad Removal */
+#ad-bottom, #ad-left{
+    width: 0px !important
 }
 
 /* Stream */
@@ -41,6 +47,39 @@ Recommended Resolution: 1920x1080 (Fullscreen)
 
 .soc-group[data-v-3c44abf2] {
 	display: none;
+}
+
+#icon-store {
+	background: transparent !important;
+	border-top: transparent !important;
+	border-bottom: transparent !important;
+	box-shadow: none !important;
+}
+
+.icon-btn:nth-child(2) {
+	background: transparent;
+	border-top: transparent;
+	border-bottom: transparent;
+	box-shadow: none;
+}
+
+.icon-btn:nth-child(3) {
+	background: transparent;
+	border-bottom: transparent;
+	border-top: transparent;
+	box-shadow: none;
+}
+
+#icon-store:hover {
+	border-top: transparent;
+}
+
+.icon-btn:nth-child(2):hover {
+	border-top: transparent;
+}
+
+.icon-btn:nth-child(3):hover {
+	border-top: transparent;
 }
 
 .right-icons {
@@ -84,11 +123,107 @@ Recommended Resolution: 1920x1080 (Fullscreen)
 }
 
 .play:before {
-	content: "css by NizzQ";
+	content: "css by NizzQ | Last Updated Jan 20 2022";
 	margin-right: 30px;
 }
 
+/* Containers */
+.background, .content, .clans, .hub-container {
+	background: transparent !important;
+}
+
+.tabs {
+	background: transparent !important;
+	border-bottom: none !important;
+	box-shadow: none !important;
+	border-right: none !important;
+}
+
+.active-tab {
+	background: transparent !important;
+	border-right: none !important;
+	border-left: none !important;
+}
+
+.tab {
+	background: transparent !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.head-text {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.add-friends {
+	background: transparent !important;
+}
+
+.limit {
+	border-left: none !important;
+}
+
+.top-bar, .close, .home, .name-page {
+	display: none !important;
+}
+
+.container {
+	background: transparent !important;
+	backdrop-filter: blur(5px);
+	box-shadow: none !important;
+}
+
+.champions-list {
+	box-shadow: none !important;
+}
+
+.description  {
+	border: 1px solid black;
+}
+
+.reset-time, .info-awards, .news {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Inventory */
+.tab-bar {
+	background: transparent !important;
+}
+
+.subjects {
+	background: transparent !important;
+	border: none !important;
+}
+
+.subject {
+	background: transparent !important;
+}
+
+.inventory .avatar-head {
+	display: none;
+}
+
+.inventory .avatar {
+	background: transparent !important;
+}
+
+.gun {
+	background: transparent !important;
+}
+
+.inventory .bottom {
+	background: transparent !important;
+  	backdrop-filter: blur(2px) !important;
+  	background-image: linear-gradient(to left, rgba(246, 255, 0, 0), #e2e04f1c) !important;
+}
+
 /* HUD */
+.mini-map-cont .name {
+	display: none;
+}
+
 .info-key-cont {
 	display: none;
 }
@@ -126,10 +261,6 @@ Recommended Resolution: 1920x1080 (Fullscreen)
 	display: none !important;
 }
 
-.map-cont {
-	display: none !important;
-}
-
 .kill-death {
 	position: fixed;
 	right: 1px;
@@ -162,6 +293,8 @@ Recommended Resolution: 1920x1080 (Fullscreen)
 .timer{
 	position: fixed;
 	right: 783px;
+	background: transparent !important;
+	box-shadow: none !important;
 }
 
 .team-score .label {
