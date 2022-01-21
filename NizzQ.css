@@ -128,7 +128,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 /* Containers */
-.background, .content, .clans, .hub-container {
+.background, .container .content, .clans, .hub-container {
 	background: transparent !important;
 }
 
