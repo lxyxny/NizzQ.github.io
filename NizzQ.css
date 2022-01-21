@@ -41,7 +41,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	display: none !important;
 }
 
-.logo {
+.interface .logo {
 	display: none;
 }
 
