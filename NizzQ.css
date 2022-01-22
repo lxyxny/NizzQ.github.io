@@ -222,6 +222,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .gun {
 	background: transparent !important;
+	border: none !important;
 }
 
 .inventory .bottom {
