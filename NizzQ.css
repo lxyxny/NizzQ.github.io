@@ -1,7 +1,7 @@
 /*
 Kirka.io Simple CSS
 Made By: NizzQ
-Last Updated 21 Jan 2022
+Last Updated 25 Jan 2022
 
 Recommended Resolution: 1920x1080 FULLSCREEN
 */
@@ -23,6 +23,13 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .bg-radial {
 	display: none;
+}
+
+/* Animation */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+  }
 }
 
 /*	Ad Removal */
@@ -132,7 +139,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Jan 20 2022";
+	content: "css by NizzQ | Last Updated Jan 25 2022";
 	margin-right: 30px;
 }
 
@@ -309,6 +316,12 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	visibility: visible;
 	margin-right: -430%;
 	margin-top: -10% !important;
+}
+
+.heads .clan-tag {
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+	-moz-animation: glow 2s ease-in-out infinite alternate;
+	animation: glow 2s ease-in-out infinite alternate;
 }
 
 /* Timer and Score */
