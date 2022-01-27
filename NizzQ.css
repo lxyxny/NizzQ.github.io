@@ -383,7 +383,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 /* Timer and Score */
 .timer{
 	position: fixed;
-	right: 783px;
+	right: 903px;
 	background: transparent !important;
 	box-shadow: none !important;
 }
