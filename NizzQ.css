@@ -1,7 +1,7 @@
 /*
 Kirka.io Simple CSS
 Made By: NizzQ
-Last Updated 25 Jan 2022
+Last Updated 27 Jan 2022
 
 Recommended Resolution: 1920x1080 FULLSCREEN
 */
@@ -141,6 +141,19 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .play:before {
 	content: "css by NizzQ | Last Updated Jan 25 2022";
 	margin-right: 30px;
+}
+
+#app > div.interface.text-2 > div.play > button {
+	position: absolute;
+	top: 16px;
+	right: 111px;
+	background: #3b4975 !important;
+	border: 4px solid #26335b !important;
+}
+
+#app > div.interface.text-2 > div.play > button:hover {
+	background: #37477c !important;
+	color: white !important;
 }
 
 /* Containers */
