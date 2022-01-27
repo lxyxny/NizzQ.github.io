@@ -15,6 +15,13 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	font-family: gamefont;
 }
 
+/* Animations */
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 5px #ae50e4, 0 0 6px #ae50e4, 0 0 7px #ae50e4, 0 0 8px #ae50e4;
+  }
+}
+
 /*Background */
 .bg-radial {
 	display: none;
@@ -23,6 +30,10 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .pattern-bg {
 	background: url(https://media.discordapp.net/attachments/523517791886770188/935214999276781598/curls.png) repeat !important;
 	background-color: transparent !important;
+}
+
+.interface .background{
+ 	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
 }
 
 /*	Ad Removal */
@@ -372,6 +383,12 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .heads .levels {
 	color: red !important;
+}
+
+.heads .clan-tag {
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+	-moz-animation: glow 2s ease-in-out infinite alternate;
+	animation: glow 2s ease-in-out infinite alternate;
 }
 
 .card-profile {
