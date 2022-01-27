@@ -16,17 +16,18 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 /*Background */
-.pattern-bg {
-	background: url(https://media.discordapp.net/attachments/529192409305710602/902459779144900628/FcQshr.png?width=1168&height=657) !important;
-}
-
 .bg-radial {
 	display: none;
 }
 
+.pattern-bg {
+	background: url(https://media.discordapp.net/attachments/523517791886770188/935214999276781598/curls.png) repeat !important;
+	background-color: transparent !important;
+}
+
 /*	Ad Removal */
 #ad-bottom, #ad-left{
-    width: 0px !important
+    display: none !important;
 }
 
 /* Stream */
@@ -152,6 +153,19 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .play:before {
 	content: "css by NizzQ | Last Updated Jan 27 2022";
 	margin-right: 30px;
+}
+
+#app > div.interface.text-2 > div.play > button {
+    position: absolute;
+    top: 16px;
+    right: 111px;
+    background: #3b4975 !important;
+    border: 4px solid #26335b !important;
+}
+
+#app > div.interface.text-2 > div.play > button:hover {
+    background: #37477c !important;
+    color: white !important;
 }
 
 .moneys {
