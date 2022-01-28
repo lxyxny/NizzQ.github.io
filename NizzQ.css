@@ -79,14 +79,24 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	box-shadow: none !important;
 }
 
-.left-icons .icon-btn:nth-child(1) {
-	background: transparent;
-	border-top: transparent;
-	border-bottom: transparent;
-	box-shadow: none;
+.left-icons .icon-btn[style="--i:5;"] .wrapper{
+	display: none;
 }
 
-.icon-btn:nth-child(2) {
+.left-icons .icon-btn[style="--i:5;"] {
+	width: 95px;
+	height: 25px;
+	margin-top: 270px;
+	background: transparent !important;
+	border-top: transparent !important;
+	border-bottom: transparent !important;
+}
+
+.left-icons .icon-btn[style="--i:5;"]:after {
+	content: "Changelog"
+}
+
+.left-icons .icon-btn:nth-child(1) {
 	background: transparent;
 	border-top: transparent;
 	border-bottom: transparent;
@@ -112,10 +122,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .icon-btn:nth-child(1):hover {
-	border-top: transparent;
-}
-
-.icon-btn:nth-child(2):hover {
 	border-top: transparent;
 }
 
