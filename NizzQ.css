@@ -86,6 +86,13 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	box-shadow: none;
 }
 
+.icon-btn[style="--i:5;"] {
+	background: transparent;
+	border-bottom: transparent;
+	border-top: transparent;
+	box-shadow: none;
+}
+
 .icon-btn:nth-child(3) {
 	background: transparent;
 	border-bottom: transparent;
@@ -105,6 +112,10 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .icon-btn:nth-child(1):hover {
+	border-top: transparent;
+}
+
+.icon-btn[style="--i:5;"]:hover {
 	border-top: transparent;
 }
 
