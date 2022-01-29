@@ -88,6 +88,12 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	box-shadow: none !important;
 }
 
+.left-icons .icon-btn[style="--i:5;"] {
+	background: transparent !important;
+	border-top: transparent !important;
+	border-bottom: transparent !important;
+}
+
 .left-icons .icon-btn:nth-child(1) {
 	background: transparent;
 	border-top: transparent;
