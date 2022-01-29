@@ -303,10 +303,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	 border: none !important;
 }
 
-.right-icons .gun-img {
-	content: url(https://media.discordapp.net/attachments/523517791886770188/914184537314033694/IMG_8028.jpg?width=715&height=657);
-}
-
 .inventory .bottom {
 	background: transparent !important;
   	backdrop-filter: blur(2px) !important;
