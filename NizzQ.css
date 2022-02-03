@@ -47,7 +47,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 /*	Ad Removal */
 #ad-bottom, #ad-left{
-    display: none !important;
+    visibility: hidden;
 }
 
 /* Stream */
