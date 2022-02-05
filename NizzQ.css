@@ -177,7 +177,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Jan 28 2022";
+	content: "css by NizzQ | Last Updated Feb 05 2022";
 	margin-right: 30px;
 }
 
@@ -421,11 +421,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .profile .k-d {
-	background: transparent !important;
-	box-shadow: none !important;
-}
-
-.profile .progress {
 	background: transparent !important;
 	box-shadow: none !important;
 }
