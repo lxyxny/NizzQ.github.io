@@ -69,8 +69,8 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	display: none;
 }
 
-.soc-group[data-v-3c44abf2] {
-	display: none;
+.soc-group:nth-child(1) {
+    display: none;
 }
 
 .left-icons .icon-btn[style="--i:5;"] {
@@ -177,7 +177,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Feb 05 2022";
+	content: "css by NizzQ | Last Updated Feb 20 2022";
 	margin-right: 30px;
 }
 
@@ -401,6 +401,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .progress-lvl {
 	visibility: visible;
+	width: 1370px;
 	margin-right: -810%;
 	margin-top: -10% !important;
 }
