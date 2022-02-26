@@ -251,7 +251,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	border-left: none !important;
 }
 
-.top-bar, .close, .home, .name-page {
+.top-bar, .home, .name-page {
 	display: none !important;
 }
 
