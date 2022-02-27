@@ -170,7 +170,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Feb 27 2022";
+	content: "css by NizzQ | Last Updated Feb 28 2022";
 	margin-right: 30px;
 }
 
@@ -259,6 +259,15 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	background: transparent !important;
 	backdrop-filter: blur(5px);
 	box-shadow: none !important;
+	border-radius: 0 !important;
+}
+
+.container-card {
+	background: #101216 !important;
+	box-shadow: none !important;
+	border: none !important;
+	margin-right: 30%;
+	margin-bottom: 10%;
 }
 
 .champions-list {
@@ -279,6 +288,34 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .container .box {
 	background: transparent;
 	border: none;
+}
+
+/* Clans */
+.clans {
+	background: transparent !important;
+}
+
+.champions-list {
+	background: transparent !important;
+	box-shadow: none !important;
+}
+
+.clans .items .item {
+	background: transparent !important;
+}
+
+.my-clan .card-cont {
+	background: transparent;
+	box-shadow: none;
+}
+
+.my-clan .list-container {
+	background: transparent;
+	box-shadow: none;
+}
+
+.my-clan .list-container .list .item .item-content {
+	background: transparent;
 }
 
 /* Inventory */
@@ -427,6 +464,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .profile .statistics {
 	background: transparent !important;
 	box-shadow: none !important;
+}
+
+.profile-cont .progress[data-v-d2be3bc6] {
+	background: transparent;
+	box-shadow: none;
 }
 
 /* Timer and Score */
