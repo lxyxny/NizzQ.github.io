@@ -262,7 +262,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	border-radius: 0 !important;
 }
 
-.container-card {
+.container .container-card[data-v-747e6ab9] {
 	background: #101216 !important;
 	box-shadow: none !important;
 	border: none !important;
