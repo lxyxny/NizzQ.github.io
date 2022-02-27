@@ -1,5 +1,5 @@
 /*
-Kirka.io Simple CSS
+Kirka.io Public Browser CSS
 Made By: NizzQ
 
 Recommended Resolution: 1920x1080 FULLSCREEN
@@ -65,12 +65,24 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	display: none !important;
 }
 
-.interface .logo {
-	display: none;
-}
-
 .soc-group:nth-child(1) {
     display: none;
+}
+
+.soc-group:nth-child(2) {
+    background: transparent !important;
+	border-top: none;
+	border-bottom: none;
+	height: 60px;
+	margin-top: 30px;
+}
+
+.soc-group:nth-child(2):hover {
+	background: none !important;
+}
+
+.interface .logo {
+	display: none;
 }
 
 .left-icons .icon-btn[style="--i:5;"] {
@@ -106,25 +118,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	border-top: transparent;
 	box-shadow: none;
 }
-/*
-.left-icons .icon-btn[style="--i:5;"] svg, .left-icons .icon-btn[style="--i:5;"] .text-icon {
-	display: none;
-}
-
-.left-icons .icon-btn[style="--i:5;"] {
-	position: absolute;
-	width: 90px;
-	height: 25px;
-	top: 650px;
-	background: transparent !important;
-	border-top: transparent !important;
-	border-bottom: transparent !important;
-}
-
-.left-icons .icon-btn[style="--i:5;"]:after {
-	content: "Changelog";
-}
-*/
 
 #icon-store:hover {
 	border-top: transparent;
@@ -177,7 +170,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 .play:before {
-	content: "css by NizzQ | Last Updated Feb 20 2022";
+	content: "css by NizzQ | Last Updated Feb 27 2022";
 	margin-right: 30px;
 }
 
@@ -212,6 +205,13 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	border-top: transparent;
 	border-bottom: transparent;
 	box-shadow: none;
+}
+
+.settings {
+	background: transparent !important;
+	border-bottom: transparent !important;
+	border-top: transparent !important;
+	margin-top: 40px;
 }
 
 /* Containers */
@@ -276,6 +276,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	box-shadow:  none !important;
 }
 
+.container .box {
+	background: transparent;
+	border: none;
+}
+
 /* Inventory */
 .tab-bar {
 	background: transparent !important;
@@ -319,15 +324,12 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 /* HUD */
-.mini-map-cont .name {
-	display: none;
-}
-
-.info-key-cont {
-	display: none;
-}
-
-.list-weapons {
+.mini-map-cont .name,
+.info-key-cont,
+.list-weapons,
+.hp-title,
+.mWwn,
+.instruction {
 	display: none !important;
 }
 
@@ -335,29 +337,34 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	margin-right: 20%;
 }
 
-.hp-title {
-	display: none !important;
+.hp-progress {
+	background: #8bff9f !important;
 }
 
 .state {
-	margin-left: 36%;
+	position: fixed;
+	width: 300px;
+	top: 93%;
+	left: 37% !important;
 }
 
 .cont-endurance {
-	margin-left: 2%;
-}
-
-.mWwn {
-	display: none !important;
+	margin-left: 1.5%;
 }
 
 .weapons-cont {
-	margin-right: 46.5%;
-	margin-bottom: 3%;
+	position: fixed;
+	width: 300px;
+	top: 95%;
+	left: 50%;
+	margin-top: -100px;
+	margin-left: 252px ;
 }
 
-.instruction {
-	display: none !important;
+.ammunition {
+	display: inline-block;
+    position: fixed;
+    left: calc(37% + 180px);
 }
 
 .kill-death {
@@ -366,16 +373,6 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	bottom: 2%;
 	left: unset !important;
 	top: unset !important;
-}
-
-/* Change Container */
-.change-container .gun-type{
-	padding: 10px;
-}
-
-.change-container .gun-type:hover {
-	border: .5px solid red;
- 	 box-shadow: 0 10px 15px rgba(236, 54, 54, .5);
 }
 
 /* Chat */
@@ -401,9 +398,8 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .progress-lvl {
 	visibility: visible;
-	width: 1370px;
-	margin-right: -810%;
-	margin-top: -10% !important;
+	position: fixed;
+	width: 1890px;
 }
 
 .heads .levels {
@@ -432,9 +428,11 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 /* Timer and Score */
-.timer{
+.state-cont .timer {
 	position: fixed;
-	right: 903px;
+	width: 300px;
+	left: 50%;
+	margin-left: -150px ;
 	background: transparent !important;
 	box-shadow: none !important;
 }
@@ -443,4 +441,15 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	margin: 26.5px;
 	margin-left: 60px;
 	margin-right: 60px;
+}
+
+/* Input */
+.custom-checkbox > span[data-v-47e1b746]:before {
+    border-radius: 50px;
+    background-color: white;
+    border: none;
+}
+
+.custom-checkbox > input:checked + span[data-v-47e1b746]:before {
+    background-color: #2ac144;
 }
