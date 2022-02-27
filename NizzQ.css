@@ -356,7 +356,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	position: fixed;
 	width: 300px;
 	top: 95%;
-	left: 50%;
+	left: 5%;
 	margin-top: -100px;
 	margin-left: 252px ;
 }
@@ -364,7 +364,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .ammunition {
 	display: inline-block;
     position: fixed;
-    left: calc(37% + 180px);
+    left: calc(38% + 188px);
 }
 
 .kill-death {
@@ -399,7 +399,9 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 .progress-lvl {
 	visibility: visible;
 	position: fixed;
-	width: 1890px;
+	width: 1870px;
+	left: 50%;
+	margin-left: -92px ;
 }
 
 .heads .levels {
