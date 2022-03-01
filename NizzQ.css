@@ -378,10 +378,8 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	background: #8bff9f !important;
 }
 
-.state {
+.desktop-game-interface .state {
 	position: fixed;
-	width: 300px;
-	top: 93%;
 	left: 37% !important;
 }
 
