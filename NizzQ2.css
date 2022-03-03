@@ -28,6 +28,12 @@ Please do give credit if you decided to recolor :)
 	display: none;
 }
 
+/*Ad Removal */
+#ad-bottom, #ad-left{
+    visibility: hidden;
+}
+
+
 /* Animation */
 @keyframes animate {
 	from {
