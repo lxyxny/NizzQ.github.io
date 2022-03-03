@@ -43,7 +43,7 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 
 .pattern-bg {
  	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
-	animation: animate 10s linear infinite !important;
+	animation: none;
 }
 
 /*	Ad Removal */
