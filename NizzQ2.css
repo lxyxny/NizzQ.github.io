@@ -85,9 +85,8 @@ Please do give credit if you decided to recolor :)
     	top: 16px;
     	right: 111px;
 	color: white !important;
-	background: rgba(55, 55, 55, .61) !important;
-	border-radius: 0 !important;
-	border:  4px solid #ffffff1c !important;
+    	background: #3b4975 !important;
+    	border: 4px solid #26335b !important;
 }
 
 .interface.text-2 .play > button:hover {
