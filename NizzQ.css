@@ -36,12 +36,12 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 	display: none;
 }
 
-.pattern-bg {
+.interface .background {
 	background: url(https://media.discordapp.net/attachments/523517791886770188/935214999276781598/curls.png) repeat !important;
 	animation: animate 10s linear infinite !important;
 }
 
-.interface .background{
+.pattern-bg {
  	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
 	animation: animate 10s linear infinite !important;
 }
