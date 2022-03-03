@@ -81,16 +81,20 @@ Please do give credit if you decided to recolor :)
 
 /* Join URL Button (For client only) */
 .interface.text-2 .play > button {
-    position: absolute;
-    top: 16px;
-    right: 111px;
-    background: #3b4975 !important;
-    border: 4px solid #26335b !important;
+    	position: absolute;
+    	top: 16px;
+    	right: 111px;
+	color: white !important;
+	background: rgba(55, 55, 55, .61);
+	border-radius: 0;
+	border:  4px solid #ffffff1c;
 }
 
 .interface.text-2 .play > button:hover {
-    background: #37477c !important;
-    color: white !important;
+	background: rgba(55, 55, 55, .61);
+	border-radius: 0;
+	border:  4px solid #ffffff1c;
+    	color: white !important;
 }
 
 /* Stream */
