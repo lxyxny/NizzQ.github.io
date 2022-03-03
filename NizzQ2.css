@@ -145,6 +145,8 @@ Please do give credit if you decided to recolor :)
 	margin-left: 0 !important;
 	background: rgba(55, 55, 55, .61) !important;
 	border: none !important;
+	border-left: none !important;
+	border-right: none !important;
 	box-shadow: none !important;
 	border-bottom:5px solid #ffffff1c !important;
 	border-radius: 0 !important;
