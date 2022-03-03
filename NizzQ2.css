@@ -702,10 +702,6 @@ Please do give credit if you decided to recolor :)
 	border-bottom: 5px solid white;
 }
 
-.esc-interface .head-right button:nth-child(4):hover {
-	border-bottom: 5px solid red;
-}
-
 .esc-interface .left-container .player{
 	background: transparent;
   	background-image: linear-gradient(to left, #39ffd408, #39ffd440) !important;
