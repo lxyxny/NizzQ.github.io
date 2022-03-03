@@ -80,16 +80,17 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Join URL Button (For client only) */
-.interface.text-2 .play > button {
+#app > div.interface.text-2 > div.play > button {
     	position: absolute;
     	top: 16px;
     	right: 111px;
 	color: white !important;
-    	background: #3b4975 !important;
-    	border: 4px solid #26335b !important;
+	background: rgba(55, 55, 55, .61) !important;
+	border-radius: 0 !important;
+	border:  4px solid #ffffff1c !important;
 }
 
-.interface.text-2 .play > button:hover {
+#app > div.interface.text-2 > div.play > button:hover {
 	background: rgba(55, 55, 55, .61) !important;
 	border-radius: 0 !important;
 	border:  4px solid #ffffff1c !important;
