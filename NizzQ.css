@@ -175,16 +175,17 @@ Recommended Resolution: 1920x1080 FULLSCREEN
 }
 
 #app > div.interface.text-2 > div.play > button {
-    position: absolute;
-    top: 16px;
-    right: 111px;
-    background: #3b4975 !important;
-    border: 4px solid #26335b !important;
+    	position: absolute;
+    	top: 16px;
+    	right: 111px;
+	color: white !important;
+    	background: #3b4975 !important;
+    	border: 4px solid #26335b !important;
 }
 
 #app > div.interface.text-2 > div.play > button:hover {
-    background: #37477c !important;
-    color: white !important;
+    	background: #37477c !important;
+    	color: white !important;
 }
 
 .moneys {
