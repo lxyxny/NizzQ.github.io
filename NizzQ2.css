@@ -35,13 +35,8 @@ Please do give credit if you decided to recolor :)
 
 
 /* Animation */
-@keyframes animate {
-	from {
-		background-position: 0 0;
-	}
-	to {
-		background-position: 0 400px;
-	}
+@-webkit-keyframes animate{
+    to {transform:translateY(30%);}
 }
 
 @-webkit-keyframes glow {
@@ -51,22 +46,21 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Background */
-.pattern-bg {
-	background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) !important;
-	animation: animate 10s linear infinite !important;
-}
-
+.pattern-bg,
 .bg-radial {
-	display: none !important;
+    display: none;
 }
 
 .interface .background{
- 	background: linear-gradient(103.28deg, #000000 7.06%, #000000 90.75%) !important;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    height: 300%;
+    background-position: 0px 0px;
+    -webkit-animation: animate 10s linear infinite!important;
 }
 
 .end-modal {
- 	 	background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
-		animation: animate 10s linear infinite !important;
+    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    animation: animate 10s linear infinite !important;
 }
 
 /* Loading Scene*/
