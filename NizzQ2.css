@@ -472,7 +472,8 @@ Please do give credit if you decided to recolor :)
     border-left: none !important;
 }
 
-.tab:hover {
+.tab:hover,
+.nav:hover {
 	color: #39ffd4 !important;
 }
 
@@ -483,10 +484,6 @@ Please do give credit if you decided to recolor :)
 
 .nav.active {
 	color: #39ffd4;
-}
-
-.nav:hover {
-	color: #39ffd4 !important;
 }
 
 .head-text {
