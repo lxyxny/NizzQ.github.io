@@ -146,7 +146,7 @@ Please do give credit if you decided to recolor :)
 .auth-form {
     margin-left: 0 !important;
     background: rgba(55, 55, 55, .61) !important;
-    backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
     border: none !important;
     border-left: none !important;
     border-right: none !important;
@@ -202,7 +202,7 @@ Please do give credit if you decided to recolor :)
 
 .left-interface .profile {
     background: rgba(55, 55, 55, .61);
-    backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
     width: 1850px;
     border-bottom: 5px solid #ffffff1c;
 }
@@ -466,11 +466,27 @@ Please do give credit if you decided to recolor :)
     border-right: none !important;
 }
 
-.active-tab,
 .tab {
     background: transparent !important;
     border-right: none !important;
     border-left: none !important;
+}
+
+.tab:hover {
+	color: #39ffd4 !important;
+}
+
+.tab.active {
+	color: #39ffd4;
+	border-bottom: 3px solid #39ffd4;
+}
+
+.nav.active {
+	color: #39ffd4;
+}
+
+.nav:hover {
+	color: #39ffd4 !important;
 }
 
 .head-text {
@@ -541,6 +557,14 @@ Please do give credit if you decided to recolor :)
 
 .text {
     transform: none !important;
+}
+
+.settings .header {
+	color: white;
+}
+
+.settings .label {
+	color: #87898c ;
 }
 
 /* Profile */
