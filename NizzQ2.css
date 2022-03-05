@@ -196,6 +196,7 @@ Please do give credit if you decided to recolor :)
 
 /* Left Interface*/
 .left-interface {
+    backdrop-filter: blur(5px);
     margin-left: 112px;
 }
 
