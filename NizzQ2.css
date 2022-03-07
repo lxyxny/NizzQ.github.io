@@ -857,6 +857,18 @@ Please do give credit if you decided to recolor :)
     height: 15px;
 }
 
+.chat .name {
+	color: white;
+}
+
+.text[data-v-76a3fe0a] {
+	color: #87898c !important;
+}
+
+.message .lvl {
+    color: #39ffd4;
+}
+
 /* End Screen */
 .end-modal {
     background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) !important;
