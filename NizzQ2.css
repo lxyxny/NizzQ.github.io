@@ -645,7 +645,7 @@ Please do give credit if you decided to recolor :)
 .inventory .bottom {
     background: transparent !important;
     backdrop-filter: blur(2px) !important;
-    background-image: linear-gradient(to left, rgba(246, 255, 0, 0), #e2e04f1c) !important;
+    background-image: linear-gradient(to left, #39ffd400, #39ffd417) !important;
 }
 
 /* Play Content */
