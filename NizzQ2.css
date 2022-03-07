@@ -858,11 +858,11 @@ Please do give credit if you decided to recolor :)
 }
 
 .chat .name {
-	color: white;
+    color: white;
 }
 
-.text[data-v-76a3fe0a] {
-	color: #87898c !important;
+.message{
+    color: #87898c !important;
 }
 
 .message .lvl {
