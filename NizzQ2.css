@@ -875,10 +875,6 @@ Please do give credit if you decided to recolor :)
 }
 
 /* End Screen */
-.end-modal {
-    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) !important;
-}
-
 .end-modal .bottom {
     display: none;
 }
