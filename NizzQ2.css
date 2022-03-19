@@ -486,6 +486,11 @@ Please do give credit if you decided to recolor :)
 	border-bottom: 3px solid #39ffd4;
 }
 
+.active-tab {
+	color: #39ffd4 !important;
+	border-bottom: 3px solid #39ffd4;
+}
+
 .nav.active {
 	color: #39ffd4;
 }
