@@ -950,18 +950,25 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Inputs */
+.private-btn > span[data-v-47e1b746] {
+	content: url(https://media.discordapp.net/attachments/523517791886770188/953239076457316382/openlock.png);
+	position: fixed;
+	left: 25px;
+	width: 40px;
+}
+
+.private-btn > input:checked + span[data-v-47e1b746] {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/953239093955948544/lock.png);
+}
+
 .custom-checkbox > span[data-v-47e1b746]:before {
     border-radius: 50px;
-    background-color: rgba(55, 55, 55, .61);
+    background-color: white;
     border: none;
 }
 
 .custom-checkbox > input:checked + span[data-v-47e1b746]:before {
     background-color: #2ac144;
-}
-
-.custom-checkbox > input:not(:disabled):active + span[data-v-47e1b746]:before {
-    background-color: rgba(55, 55, 55, .61);
 }
 
 input {
