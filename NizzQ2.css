@@ -876,7 +876,8 @@ Please do give credit if you decided to recolor :)
 	color: white !important;
 }
 
-.tab-info .nickname {
+.tab-info .nickname,
+.tab-info .player-right {
 	color: #87898c;
 }
 
@@ -885,7 +886,9 @@ Please do give credit if you decided to recolor :)
 	margin: 0 !important;
 }
 
-.tab-info .list .list-value:nth-child(1) {
+.tab-info .list .list-value:nth-child(1),
+.tab-info .list .list-value:nth-child(2),
+.tab-info .list .list-value:nth-child(3) {
 	visibility: hidden;
 }
 
@@ -895,28 +898,16 @@ Please do give credit if you decided to recolor :)
 	margin-left: -36px;
 }
 
-.tab-info .list .list-value:nth-child(2) {
-	visibility: hidden;
-}
-
 .tab-info .list .list-value:nth-child(2):after {
 	visibility: visible;
 	content: "D";
 	margin-left: -36px;
 }
 
-.tab-info .list .list-value:nth-child(3) {
-	visibility: hidden;
-}
-
 .tab-info .list .list-value:nth-child(3):after {
 	visibility: visible;
 	content: "S";
 	margin-left: -49px;
-}
-
-.tab-info .player-right {
-	color: #87898c;
 }
 
 /* Chat */
