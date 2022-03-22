@@ -1,7 +1,7 @@
 /* 
 Public Kirka.io CSS #2 by NizzQ#9235
 Note: Not an original theme
-Last Updated: March 20 2022 (test)
+Last Updated: March 22 2022
 Please do give credit if you decided to recolor :)
 
 -=Install Instructions for Browser=-
@@ -854,6 +854,69 @@ Please do give credit if you decided to recolor :)
     background: transparent !important;
     box-shadow: none !important;
     font-size: 50px;
+}
+
+/* In Game Leaderboard */
+.tab-info {
+    background: rgba(55, 55, 55, .61) !important;
+	box-shadow: none !important;
+	border-radius: 0 !important;
+	border: 5px solid #ffffff1c;
+}
+
+.tab-info .head {
+	display: none;
+}
+
+.tab-info .player {
+	background: transparent !important;	
+}
+
+.tab-info .primary {
+	color: white !important;
+}
+
+.tab-info .nickname {
+	color: #87898c;
+}
+
+.tab-info .list {
+	color: white;
+	margin: 0 !important;
+}
+
+.tab-info .list .list-value:nth-child(1) {
+	visibility: hidden;
+}
+
+.tab-info .list .list-value:nth-child(1):after {
+	visibility: visible;
+	content: "K";
+	margin-left: -36px;
+}
+
+.tab-info .list .list-value:nth-child(2) {
+	visibility: hidden;
+}
+
+.tab-info .list .list-value:nth-child(2):after {
+	visibility: visible;
+	content: "D";
+	margin-left: -36px;
+}
+
+.tab-info .list .list-value:nth-child(3) {
+	visibility: hidden;
+}
+
+.tab-info .list .list-value:nth-child(3):after {
+	visibility: visible;
+	content: "S";
+	margin-left: -49px;
+}
+
+.tab-info .player-right {
+	color: #87898c;
 }
 
 /* Chat */
