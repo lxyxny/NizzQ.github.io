@@ -910,6 +910,13 @@ Please do give credit if you decided to recolor :)
 	margin-left: -49px;
 }
 
+.achive-cont {
+  	content: url(https://media.discordapp.net/attachments/523517791886770188/956029712470253598/PikPng.com_roblox-head-png_965768.png?width=160&height=160) !important;
+  	position: fixed;
+  	right: 45%;
+  	border-radius: 100px;
+}
+
 /* Chat */
 .chat {
     margin-bottom: -53px;
