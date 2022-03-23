@@ -916,6 +916,24 @@ Please do give credit if you decided to recolor :)
   	right: 45%;
 }
 
+.kill-bar-item {
+	background: transparent !important;
+}
+
+.kill-bar-item .name {
+	background: linear-gradient(to right, #85f785, #85f7856b, #85f78545, #85f78514) !important;
+	width: 110px;
+	height: 33px;
+	padding-top: 8px;
+}
+
+.kill-bar-item .name-kill {
+	background: linear-gradient(to left, #f00, #ff00008f, #ff000052, #ff00001f) !important;
+	width: 110px;
+	height: 33px;
+	padding-top: 8px;
+}
+
 /* Chat */
 .chat {
     margin-bottom: -53px;
