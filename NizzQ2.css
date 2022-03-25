@@ -79,24 +79,13 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Join URL Button (For client only) */
-.interface.text-2 .play > button {
-    position: absolute;
-    top: 20px;
-    right: 150px;
-    color: white !important;
+.join-using-link {
     background: rgba(55, 55, 55, .61) !important;
     border-radius: 0 !important;
     border: 4px solid #ffffff1c !important;
 }
 
-.interface.text-2 .play > button:hover {
-    background: rgba(55, 55, 55, .61) !important;
-    border-radius: 0 !important;
-    border: 4px solid #ffffff1c !important;
-    color: white !important;
-}
-
-.interface.text-2 .play > button:active {
+.join-using-link:active {
     background: #39ffd4bf!important;
 }
 
