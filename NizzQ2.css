@@ -885,19 +885,23 @@ Please do give credit if you decided to recolor :)
 .tab-info .list .list-value:nth-child(1):after {
 	visibility: visible;
 	content: "K";
-	margin-left: -36px;
+	margin-left: -29px;
 }
 
 .tab-info .list .list-value:nth-child(2):after {
 	visibility: visible;
 	content: "D";
-	margin-left: -36px;
+	margin-left: -28px;
 }
 
 .tab-info .list .list-value:nth-child(3):after {
 	visibility: visible;
 	content: "S";
-	margin-left: -49px;
+	margin-left: -5px;
+}
+
+.tab-info .player-right svg {
+	display: none;
 }
 
 .achive-cont {
