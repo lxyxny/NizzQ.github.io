@@ -538,6 +538,7 @@ Please do give credit if you decided to recolor :)
 .select-regions-cont {
     border: none !important;
     background: #101216 !important;
+    margin-bottom: 40px;
 }
 
 .container button {
