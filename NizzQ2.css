@@ -762,6 +762,14 @@ Please do give credit if you decided to recolor :)
     animation: glow 2s ease-in-out infinite alternate;
 }
 
+.esc-interface .primary {
+	color: #39ffd4 !important;
+}
+
+.esc-interface .level{
+	color: white;
+}
+
 .continue {
 	background: rgb(68, 68, 68) !important;
 	box-shadow: none !important;
