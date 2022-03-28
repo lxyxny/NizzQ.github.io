@@ -157,6 +157,21 @@ Please do give credit if you decided to recolor :)
     padding: 0px;
 }
 
+
+.auth-user .loading {
+    background: rgba(55, 55, 55, .61);
+	backdrop-filter: blur(5px);
+	border: none;
+	border-bottom: 5px solid #ffffff1c !important;
+	border-radius: 0;
+	width: 2500px;
+    height: 112px;
+}
+
+.loader-container {
+	margin-right: 95% !important;
+}
+
 .button[data-v-02c36fca] {
     -webkit-text-stroke: 0px !important;
 }
