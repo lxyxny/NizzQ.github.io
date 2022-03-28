@@ -503,7 +503,10 @@ Please do give credit if you decided to recolor :)
 .close[data-v-747e6ab9],
 .home,
 .name-page,
-.select-mods-cont hr {
+.select-mods-cont hr,
+.info-icon,
+.container button .border-top,
+.container button .border-bottom {
     display: none !important;
 }
 
@@ -556,8 +559,9 @@ Please do give credit if you decided to recolor :)
     transform: none !important;
 }
 
-.settings .header {
-	color: white;
+.settings .header,
+.vm--container .cont .head {
+	color: white !important;
 }
 
 .settings .label {
@@ -1068,4 +1072,13 @@ input {
     border: none !important;
     box-shadow: none !important;
     color: white !important;
+}
+
+.copy button {
+	background: rgba(55, 55, 55, .61) !important;
+	box-shadow: none !important;
+}
+
+.copy .border {
+	display: none;
 }
