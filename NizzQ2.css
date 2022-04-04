@@ -745,6 +745,25 @@ Please do give credit if you decided to recolor :)
     box-shadow: none !important;
 }
 
+.my-clan .card-cont .name {
+	color: #af51e6;
+	-webkit-animation: glow 2s ease-in-out infinite alternate;
+    -moz-animation: glow 2s ease-in-out infinite alternate;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.my-clan .champions-league,
+.my-clan .champions-scores,
+.my-clan .all-scores-label {
+	color: white !important;
+}
+
+.my-clan .champions-values,
+.my-clan .all-scores-value,
+.my-clan .description {
+	color: #87898c;
+}
+
 /* Market */
 .bottom-subj .count {
     background: transparent;
