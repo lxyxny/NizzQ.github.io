@@ -585,6 +585,52 @@ Please do give credit if you decided to recolor :)
 	color: #87898c ;
 }
 
+.select-regions-regions .region:nth-child(1) span,
+.select-regions-regions .region:nth-child(2) span,
+.select-regions-regions .region:nth-child(3) span,
+.select-mods-mods .mod:nth-child(1) span,
+.select-mods-mods .mod:nth-child(2) span {
+	visibility: hidden;
+}
+
+.select-regions-regions .region:nth-child(1) span:before,
+.select-regions-regions .region:nth-child(2) span:before,
+.select-regions-regions .region:nth-child(3) span:before,
+.select-mods-mods .mod:nth-child(1) span:before,
+.select-mods-mods .mod:nth-child(2) span:before {
+	visibility: visible;
+}
+
+.select-regions-regions .region:nth-child(1) span:after{
+	visibility: visible;
+	content: "NA";
+	margin-left: -130px;
+}
+
+.select-regions-regions .region:nth-child(2) span:after{
+	visibility: visible;
+	content: "EU";
+	margin-left: -60px;
+}
+
+.select-regions-regions .region:nth-child(3) span:after{
+	visibility: visible;
+	content: "AS (SIN)";
+	margin-left: -32px;
+}
+
+.select-mods-mods .mod:nth-child(1) span:after{
+	visibility: visible;
+	content: "FFA";
+	margin-left: -40px;
+}
+
+.select-mods-mods .mod:nth-child(2) span:after{
+	visibility: visible;
+	content: "TDM";
+	margin-left: -47px;
+}
+
 /* Profile */
 .profile .statistics,
 .profile-cont .progress[data-v-d2be3bc6],
