@@ -631,7 +631,7 @@ Please do give credit if you decided to recolor :)
 
 /* Profile */
 .profile .statistics,
-.profile-cont .progress[data-v-d2be3bc6],
+.profile .progress,
 .profile .k-d,
 .card-profile {
     background: transparent !important;
