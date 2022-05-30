@@ -461,6 +461,11 @@ Please do give credit if you decided to recolor :)
     border-radius: 0 !important;
 }
 
+.loader  {
+    background: transparent !important;
+    border: none !important;
+}
+
 .background {
     background: transparent !important;
     border-radius: 0;
