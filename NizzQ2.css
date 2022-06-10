@@ -126,6 +126,16 @@ Please do give credit if you decided to recolor :)
     background: #39ffd4bf!important;
 }
 
+#clientJoinButton {
+	background: rgba(55, 55, 55, .61) !important;
+    border-radius: 0 !important;
+    border: 4px solid #ffffff1c !important;
+}
+
+#clientJoinButton:active {
+    background: #39ffd4bf!important;
+}
+
 /* Stream */
 .live-streams {
     background: rgba(55, 55, 55, .61);
