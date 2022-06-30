@@ -138,10 +138,11 @@ Please do give credit if you decided to recolor :)
 
 /* Stream */
 .live-streams {
-    background: rgba(55, 55, 55, .61);
+  pointer-events: all;
+	background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
     position: fixed;
-    left: 95px;
+    left: 84px;
     top: 80px;
     width: 300px !important;
     height: 1200px;
@@ -150,27 +151,29 @@ Please do give credit if you decided to recolor :)
     transition: 0.8s;
 }
 
-.live-streams:before {
-    content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
-    position: fixed;
-    right: 320px;
-    top: 15px;
-    transition: 0.2s;
-}
-
-.live-streams:hover:before {
-    opacity: 0;
-}
-
-.live-streams:after {
-    content: "CSS by NizzQ#9235";
-    position: fixed;
+.live-streams::after {
+	position: absolute;
+	content: "CSS by NizzQ#9235";
     top: 505px;
-    right: 115px;
+    right: 125px;
+}
+
+.live-streams::before {
+	content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
+    position: absolute;
+    right: 308px;
+    top: 15px;
+	 display: -ms-grid !important;
+  	display: grid !important;
+    transition: 0.9s;
 }
 
 .live-streams:hover {
     left: -115px;
+}
+
+.live-streams:hover:before {
+	opacity: 0;
 }
 
 .live-streams .head {
