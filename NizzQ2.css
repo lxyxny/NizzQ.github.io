@@ -197,16 +197,15 @@ Please do give credit if you decided to recolor :)
     box-shadow: none !important;
     border-bottom: 5px solid #ffffff1c !important;
     border-radius: 0 !important;
-    width: 2500px;
-    height: 112px;
+    width: 2500px !important;
+    height: 118px !important;
 }
 
 .auth-form .btns button {
-    margin-top: 20px;
     transform: none !important;
     padding: 0px;
+	left: -450%;
 }
-
 
 .auth-user .loading {
     background: rgba(55, 55, 55, .61);
@@ -215,7 +214,7 @@ Please do give credit if you decided to recolor :)
 	border-bottom: 5px solid #ffffff1c !important;
 	border-radius: 0;
 	width: 2500px;
-    height: 112px;
+    height: 118px !important;
 }
 
 .auth-user .loader-container {
@@ -243,7 +242,7 @@ Please do give credit if you decided to recolor :)
 }
 
 .auth-form .text {
-    font-size: 30px !important;
+    font-size: 26px !important;
 }
 
 .auth-form button:hover {
