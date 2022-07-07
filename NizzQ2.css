@@ -255,10 +255,6 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Left Interface*/
-.left-interface {
-    margin-left: 109px;
-}
-
 .left-interface .profile {
     background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
@@ -292,8 +288,8 @@ Please do give credit if you decided to recolor :)
 .left-interface .user-info,
 .left-interface .money {
     background: transparent !important;
-    border-top: none !important;
-    border-bottom: none !important;
+	margin-left: -18px;
+	border: none;
 }
 
 .left-interface .avatar-info:hover,
@@ -303,22 +299,16 @@ Please do give credit if you decided to recolor :)
 
 /* Left icons */
 .left-icons {
-    background: rgba(55, 55, 55, .61);
+    background: rgba(55, 55, 55, .61) !important;
     backdrop-filter: blur(5px);
-    top: 0 !important;
     left: 0 !important;
-    width: 112px;
-    height: 2000px;
     border-right: 5px solid #ffffff1c;
 }
 
 .left-icons .icon-btn {
     background: transparent;
-    border-top: none;
-    border-bottom: none;
+	border: none;
     width: 107px;
-    height: 100px;
-    margin: 0;
     border-radius: 0;
 }
 
@@ -389,7 +379,7 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(4) {
-    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=675&height=676);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994487960605040680/white2.png);
     background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
@@ -399,23 +389,55 @@ Please do give credit if you decided to recolor :)
 }
 
 .left-icons .icon-btn:nth-child(4):hover {
-    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=675&height=676);
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994487960605040680/white2.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
 
-.left-icons .icon-btn[style="--i:5;"] {
-    background: url(https://media.discordapp.net/attachments/523517791886770188/946795092310634516/4p200a01ofji3u61huvfc21j8f.png?width=691&height=676);
-    background-size: 70px !important;
+.left-icons .icon-btn:nth-child(5) {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/966953628747321354/SeekPng.png?width=740&height=657) ;
+    background-size: 55px !important;
     background-repeat: no-repeat;
     margin-top: 0;
-    background-position-x: 1rem !important;
+    background-position-x: 1.5rem !important;
     background-position-y: 1rem !important;
     transition: 0.3s;
 }
 
-.left-icons .icon-btn[style="--i:5;"]:hover {
-    background: url(https://media.discordapp.net/attachments/523517791886770188/946795092310634516/4p200a01ofji3u61huvfc21j8f.png?width=691&height=676);
+.left-icons .icon-btn:nth-child(5):hover {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/966953628747321354/SeekPng.png?width=740&height=657);
+    background-repeat: no-repeat;
+    transform: scale(1.2)
+}
+
+.left-icons .icon-btn:nth-child(6) {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994489599978110977/inventory.png) ;
+    background-size: 65px !important;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-position-x: 1.2rem !important;
+    background-position-y: 0.5rem !important;
+    transition: 0.3s;
+}
+
+.left-icons .icon-btn:nth-child(6):hover {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/994489599978110977/inventory.png);
+    background-repeat: no-repeat;
+    transform: scale(1.2)
+}
+
+.left-icons .icon-btn:nth-child(7) {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=656&height=657) ;
+    background-size: 55px !important;
+    background-repeat: no-repeat;
+    margin-top: 0;
+    background-position-x: 1.5rem !important;
+    background-position-y: 0.1rem !important;
+    transition: 0.3s;
+}
+
+.left-icons .icon-btn:nth-child(7):hover {
+    background: url(https://media.discordapp.net/attachments/523517791886770188/946794301529137253/Daco_4390267.png?width=656&height=657);
     background-repeat: no-repeat;
     transform: scale(1.2)
 }
