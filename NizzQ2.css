@@ -346,7 +346,7 @@ Please do give credit if you decided to recolor :)
     transform: scale(1.2)
 }
 
-.left-icons #icon-store {
+.left-icons .icon-btn:nth-child(2) {
     background: url(https://media.discordapp.net/attachments/523517791886770188/946792665842843659/Daco_4606909.png);
     background-size: 55px !important;
     background-repeat: no-repeat;
@@ -356,7 +356,7 @@ Please do give credit if you decided to recolor :)
     transition: 0.3s;
 }
 
-.left-icons #icon-store:hover {
+.left-icons .icon-btn:nth-child(2):hover {
     background: url(https://media.discordapp.net/attachments/523517791886770188/946792665842843659/Daco_4606909.png);
     background-repeat: no-repeat;
     transform: scale(1.2)
