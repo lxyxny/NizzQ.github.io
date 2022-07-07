@@ -1151,11 +1151,15 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Reward Container */
-.progress[data-v-27921169],
-.lvl[data-v-27921169],
+.progress,
+.lvl,
 .progress-helper {
     background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
     background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
+}
+
+.buy-btn[data-v-f1059abc] {
+	display: none !important;
 }
 
 .level-head {
