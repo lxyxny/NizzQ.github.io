@@ -454,8 +454,7 @@ Please do give credit if you decided to recolor :)
     background-size: 50px !important;
     background-position-x: 1rem !important;
     background-position-y: 1rem !important;
-    border-top: none;
-    border-bottom: none;
+	border: none;
     position: fixed;
     right: 80px;
     top: 12px;
@@ -480,8 +479,7 @@ Please do give credit if you decided to recolor :)
 
 .right-interface .settings {
     background: transparent !important;
-    border-bottom: transparent !important;
-    border-top: transparent !important;
+	border: none;
     margin-top: 30px;
     transition: 0.3s !important;
 }
@@ -489,37 +487,6 @@ Please do give credit if you decided to recolor :)
 .right-interface .settings:hover {
     transform: scale(1.2)
 }
-
-/* Right Icons */
-.right-icons .icon-btn {
-    background: transparent;
-    border-top: none;
-    border-bottom: none;
-    border-radius: 0;
-}
-
-
-.right-icons .icon-btn:hover {
-    border-top: none;
-    border-bottom: 3px solid white !important;
-}
-
-.right-icons .icon-btn:hover > .wrapper[data-v-ae524044] {
-    transform: none;
-}
-
-.right-icons .inventory-card {
-    background: transparent;
-    border-top: none;
-    border-bottom: none;
-    border-radius: 0;
-}
-
-.right-icons .inventory-card:hover {
-    background: transparent;
-    border-bottom: 3px solid white;
-}
-
 
 /* Container */
 .container {
