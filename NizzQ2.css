@@ -82,6 +82,10 @@ Please do give credit if you decided to recolor :)
 		}
 }
 
+.heads .clan-tag {
+	animation: rainbow 1.3s linear infinite;
+}
+
 /* Background */
 .pattern-bg,
 .bg-radial {
@@ -136,44 +140,41 @@ Please do give credit if you decided to recolor :)
     background: #39ffd4bf!important;
 }
 
-/* Stream */
+/* Stream 
 .live-streams {
-  pointer-events: all;
-	background: rgba(55, 55, 55, .61);
+    background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
     position: fixed;
-    left: 84px;
+    left: 95px;
     top: 80px;
     width: 300px !important;
     height: 1200px;
     border-left: 4px solid #ffffff1c;
-    -webkit-transition: 0.8s;
-    transition: 0.8s;
+    -webkit-transition: 1s;
+    transition: 1s;
 }
 
-.live-streams::after {
-	position: absolute;
-	content: "CSS by NizzQ#9235";
-    top: 505px;
-    right: 125px;
-}
-
-.live-streams::before {
-	content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
-    position: absolute;
-    right: 308px;
+.live-streams:before {
+    content: url(https://media.discordapp.net/attachments/523517791886770188/947364113770758194/pngfind.com-chevron-png-95287.png?width=30&height=30);
+    position: fixed;
+    right: 320px;
     top: 15px;
-	 display: -ms-grid !important;
-  	display: grid !important;
-    transition: 0.9s;
+    transition: 0.2s;
+}
+
+.live-streams:hover:before {
+    opacity: 0;
+}
+
+.live-streams:after {
+    content: "CSS by NizzQ#9235";
+    position: fixed;
+    top: 505px;
+    right: 115px;
 }
 
 .live-streams:hover {
     left: -115px;
-}
-
-.live-streams:hover:before {
-	opacity: 0;
 }
 
 .live-streams .head {
@@ -185,7 +186,7 @@ Please do give credit if you decided to recolor :)
     padding: 0 9px;
     overflow: visible;
 }
-
+*/
 /* Login/Signup*/
 .auth-form {
     margin-left: 0 !important;
@@ -302,6 +303,7 @@ Please do give credit if you decided to recolor :)
     backdrop-filter: blur(5px);
     left: 0 !important;
     border-right: 5px solid #ffffff1c;
+	border-radius: 0 !important;
 }
 
 .left-icons .icon-btn {
@@ -311,22 +313,9 @@ Please do give credit if you decided to recolor :)
     border-radius: 0;
 }
 
-.left-icons .icon-btn:hover {
-    border-top: none;
-}
-
-.left-icons .icon-btn:hover > .wrapper[data-v-ae524044] {
-    transform: none;
-}
-
 .left-icons .icon-btn .text-icon,
 .left-icons .icon-btn svg {
     display: none;
-}
-
-.left-icons .icon-btn svg {
-    margin-top: 13px !important;
-    transition: 0.3s;
 }
 
 .left-icons .icon-btn:nth-child(1) {
@@ -442,11 +431,39 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Right Interface */
-.soc-group:nth-child(1),
-.text-soc {
-    display: none !important;
+.right-interface {
+	padding-top: 20px;
 }
 
+.soc-group:nth-child(1),
+.soc-group:nth-child(2) {
+	background: transparent !important;
+	border: none;
+}
+
+.soc-group:nth-child(1):hover,
+.soc-group:nth-child(2):hover {
+	background: none !important;
+	transform: scale(1.2);
+}
+
+.right-interface .settings {
+	background: transparent;
+	border: none;
+	width: 20px !important;
+	transition: 0.3s;
+} 
+
+.right-interface .settings:hover {
+	background: none;
+	transform: scale(1.2);
+}
+
+.right-interface {
+    z-index: 999!important;
+}
+
+/*
 .soc-group:nth-child(2) {
     background: url(https://media.discordapp.net/attachments/523517791886770188/947500791365787729/monitor-512.png) !important;
     background-repeat: no-repeat !important;
@@ -471,20 +488,57 @@ Please do give credit if you decided to recolor :)
 .soc-group:nth-child(2) svg {
     opacity: 0;
 }
+*/
 
-.right-interface {
-    z-index: 999!important;
+/* Daily Quest */
+#dailyQuests {
+	background: rgba(55, 55, 55, .61);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 79px;
+    top: 118px;
+    width: 300px !important;
+    height: 205px;
+    border-left: 4px solid #ffffff1c;
+	border-right: none;
+	border-top: none;
+	border-bottom: 4px solid #ffffff1c;
+	border-radius: 0;
+	z-index: -1 !important;
+	overflow: auto;
 }
 
-.right-interface .settings {
-    background: transparent !important;
-	border: none;
-    margin-top: 30px;
-    transition: 0.3s !important;
+.quest {
+	background: transparent !important;
 }
 
-.right-interface .settings:hover {
-    transform: scale(1.2)
+#dailyQuests .tip {
+	background: transparent !important;
+	width: 246px;
+	border-bottom: 3px solid white;
+	border-radius: 0 !important;
+	margin-left: 15px;
+}
+
+.quest .progress-line {
+	background: #4f4e4ead;
+}
+
+#dailyQuests .reward {
+	background: #4f4e4ead;
+}
+
+.quest .amount {
+	color: #ddd8d8;
+}
+
+.quest .progress2 {
+	color: #87898c;
+}
+
+.quest .progress-line .progress {
+	background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
+    background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
 }
 
 /* Container */
@@ -502,8 +556,8 @@ Please do give credit if you decided to recolor :)
 }
 
 .loader  {
-    background: transparent !important;
-    border: none !important;
+	background: transparent !important;
+	border: none !important;
 }
 
 .background {
@@ -582,11 +636,12 @@ Please do give credit if you decided to recolor :)
 
 .select-mods-cont {
     width: 400px !important;
-    height: 587px !important;
+    height: 517px !important;
     border: none !important;
     border-radius: 0 !important;
     background: #101216 !important;
     overflow: visible;
+	z-index: 999 !important;
 }
 
 .interface.text-2 > .play > div > .play-content-up > div > div > .select-mods-maps {
@@ -699,18 +754,6 @@ Please do give credit if you decided to recolor :)
 .profile .progress[data-v-5aafd15a] {
     background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
     background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
-}
-
-/*
-.heads .clan-tag {
-    -webkit-animation: glow 2s ease-in-out infinite alternate;
-    -moz-animation: glow 2s ease-in-out infinite alternate;
-    animation: glow 2s ease-in-out infinite alternate;
-}
-*/
-
-.heads .clan-tag {
-	animation: rainbow 1.3s linear infinite;
 }
 
 .heads .levels {
@@ -918,7 +961,7 @@ Please do give credit if you decided to recolor :)
 
 /* HUD */
 .mini-map-cont .name,
-.info-key-cont,
+.desktop-game-interface .info-key-cont,
 .list-weapons,
 .hp-title,
 .mWwn,
@@ -1150,8 +1193,8 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Reward Container */
-.progress,
-.lvl,
+.progress[data-v-f1059abc],
+.lvl[data-v-f1059abc],
 .progress-helper {
     background: -webkit-gradient(linear, left top, right top, from(#84a1ff), to(#39ffd4)) !important;
     background: linear-gradient(to right, #84a1ff, #39ffd4) !important;
