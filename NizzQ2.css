@@ -27,10 +27,11 @@ Please do give credit if you decided to recolor :)
 }
 
 /*	Ad Removal */
-#ad-bottom,
-#ad-left {
-    visibility: hidden;
+.ad-bottom,
+.ad-left {
+    visibility: hidden !important;
 }
+
 
 /* Animation */
 @-webkit-keyframes glow {
