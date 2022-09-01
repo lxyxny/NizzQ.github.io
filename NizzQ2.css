@@ -810,7 +810,7 @@ Please do give credit if you decided to recolor :)
 /* Inventory */
 .tab-bar,
 .subject,
-.inventory .avatar {
+.inventory .left  {
     background: transparent !important;
 }
 
