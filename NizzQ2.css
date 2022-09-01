@@ -556,6 +556,27 @@ Please do give credit if you decided to recolor :)
     border-radius: 0 !important;
 }
 
+.container-card .close {
+	display: none ;
+}
+
+.container-card .header {
+	color: white;
+}
+
+.container-card .label {
+	color: #87898c;
+}
+
+.container-card .button {
+ 	background: rgba(68, 68, 68, .45) !important;	
+	box-shadow: none !important;
+}
+
+.container-card .border {
+	display: none;
+}
+
 .loader  {
 	background: transparent !important;
 	border: none !important;
