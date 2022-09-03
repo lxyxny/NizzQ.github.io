@@ -663,15 +663,13 @@ Please do give credit if you decided to recolor :)
     border-radius: 0 !important;
     background: #101216 !important;
     overflow: visible;
-	z-index: 999 !important;
+
 }
 
 .interface.text-2 > .play > div > .play-content-up > div > div > .select-mods-maps {
-    display: grid;
     text-align: left;
-    padding: 0 19px;
     width: 100% !important;
-    height: 75% !important;
+    height: 55% !important;
 }
 
 .select-regions-cont {
