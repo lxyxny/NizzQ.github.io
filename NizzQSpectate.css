@@ -49,7 +49,7 @@ WIP WIP WIP WIP
 
 /* Tournament Title/Sponsors*/
 .spectator .infos .fps:after {
-	content: "NA AIM Tournament";
+	content: "Kirka.io Tournament";
 	color: white;
 	background: #ffffff4a  !important;
 	backdrop-filter: blur(50px) !important;
