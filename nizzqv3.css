@@ -1,0 +1,435 @@
+:root {
+	--black-color: #1F1F1F;
+	--red-color: #9B111E;
+	--slight-red-color: #aa2d39;
+	--green-color: #5e972e;
+	--default-hover-color: #ecdccc;
+	--default-btn-color: #d9bea1;
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--default-btn-color);
+}
+
+::-webkit-scrollbar-track {
+	background: var(--black-color);
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url("https://raw.githubusercontent.com/MOF1/krunker_css/main/css/fonts/Steradian-Bold.otf");
+}
+
+* {
+    font-family: gamefont;
+}
+
+/* Background */
+.pattern-bg,
+.bg-radial {
+    display: none;
+}
+
+.interface .background{
+    background: url(https://media.discordapp.net/attachments/523517791886770188/1052994095150284900/nukekirka2.png) no-repeat !important;
+	filter: grayscale(1);
+}
+
+/* Logo */
+.interface .logo {
+	display: none;
+}
+
+/*	Ad Removal */
+.ad-bottom,
+.ad-left {
+    visibility: hidden;
+}
+
+/* Player */
+.team-section {
+	display: none !important;
+}
+
+/* Play-content */
+.play-btn .borders,
+.play-btn .triangle,
+.play-btn .animation,
+.select-mod .arrow-bottom,
+.animation:before,
+.private-btn span:before,
+.select-region img { 
+	display: none !important;
+}
+
+.play-content {
+	background: var(--black-color);
+	align-items: normal !important;
+	padding-left: .5%;
+	padding-right: .5%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+}
+
+.play-content-up {
+	display: flex;
+	flex-direction: column;
+}
+
+.select-mod {
+	background: var(--default-btn-color) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	margin-left: 2.3%;
+	padding: 3% !important;
+	width: 96%;
+	color: var(--black-color);
+	text-shadow: none;
+	transition: 0.5s;
+}
+
+.select-mod:hover {
+	background: var(--default-hover-color) !important
+}
+
+.select-mod:before {
+	content: url(https://media.discordapp.net/attachments/523517791886770188/1053043131244871792/touchscreen.png?width=21&height=21)
+}
+
+.select-region {
+	background: var(--default-btn-color) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	padding: 3% !important;
+	width: 96%;
+	margin-left: 2.3%;
+	margin-bottom: 2% !important;
+	color: var(--black-color);
+	text-shadow: none;
+	font-size: 21px !important;
+	text-align: center !important;
+	transition: 0.5s;
+}
+
+.select-region:hover {
+	background: var(--default-hover-color) !important;
+}
+
+.select-region:before {
+	content: "REGION: ";
+	font-size: 21px;
+}
+
+.private-btn {
+	background: var(--default-btn-color);
+	margin-bottom: 2%;
+	margin-left: 2.4% !important;
+	padding: 3%;
+	width: 96%;
+	text-shadow: none;
+	color: var(--black-color);
+	transition: 0.5s;
+}
+
+.private-btn:hover {
+	background: var(--default-hover-color);
+}
+
+.private-btn span {
+	display: none !important;
+}
+
+.private-btn:before {
+	content: url(https://media.discordapp.net/attachments/523517791886770188/1053044959730737243/design-tool.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+}
+
+.private-btn:after {
+	content: "CUSTOM MATCH" !important
+}
+
+.play {
+	position: fixed;
+	left: 0;
+	bottom: 0 !important;
+	transform-origin: left 40% !important;
+	padding-left: 3% !important;
+	margin-bottom: 8%
+}
+
+#play-btn {
+	transform: none !important;
+	border-radius: 0px !important;
+	background: var(--default-btn-color) !important;
+	-webkit-text-stroke: 0px !important;
+	box-shadow: none !important;
+	--hover-color: var(--default-hover-color) !important;
+	text-shadow: none !important;
+	color: var(--black-color) !important
+}
+
+/* Login */
+.auth-form {
+	background: transparent !important;
+	border: none !important;
+}
+
+.auth-form button {
+	transform: none !important;
+	background: var(--default-btn-color) !important;
+	box-shadow: none !important;
+	left: 20px;
+	border-radius: 0px !important;
+}
+
+.auth-form button:hover {
+	--hover-color: var(--default-hover-color) !important;
+}
+
+.auth-form .text {
+	transform: none;
+	-webkit-text-stroke: 0px;
+	font-size: 20px;
+	color: var(--black-color);
+}
+
+.auth-form .borders,
+.auth-form .triangle {
+	display: none;
+}
+
+/* Left-icons */
+.left-icons .icon-btn:hover > .wrapper {
+	transform: none;
+}
+
+.left-icons .icon-btn svg {
+	display: none;
+}
+
+.left-icons {
+	position: fixed;
+	top: 0 !important;
+	margin-top: 5%;
+	margin-left: 3%;
+	padding-top: 1%;
+	background: var(--black-color) !important;
+	border-radius: 0px !important;
+	width: 24.82%;
+	height: 34% !important;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+.left-icons .icon-btn {
+	background: var(--default-btn-color);
+	width: 94%;
+	border: none;
+	margin-left: 4%;
+	margin-bottom: 3%;
+	padding: 3% !important;
+	display: flex;
+	align-items: center !important;
+	color: var(--black-color);
+	text-shadow: none !important;
+	flex-direction: row;
+	font-size: 21px;
+	transition: 0.5s;
+}
+
+.left-icons .icon-btn:hover {
+	background: var(--default-hover-color) !important;
+}
+
+.left-icons .icon-btn:nth-child(1):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054314543028916244/planet-earth.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.5%;
+}
+
+
+.left-icons .icon-btn:nth-child(2):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054315214650224751/store.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.5%;
+}
+
+.left-icons .icon-btn:nth-child(3):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054316570895204433/magnifying-glass-search.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.5%;
+}
+
+.left-icons .icon-btn:nth-child(4):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054316263058456586/quest.png?width=25&height=25);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 1%;
+}
+
+.left-icons .icon-btn:nth-child(5):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054316748528168981/friends.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.7%;
+}
+
+.left-icons .icon-btn:nth-child(6):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054317345453121556/backpack.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.7%;
+}
+
+.left-icons .icon-btn:nth-child(7):before {
+	content: url(https://media.discordapp.net/attachments/553344507085717516/1054317870395433090/pencil.png?width=20&height=20);
+	margin-left: -4%;
+	margin-right: 2%;
+	margin-top: 0.7%;
+}
+
+.left-icons .icon-btn .wrapper {
+	display: flex;
+	flex-direction: row;
+}
+
+/* Right Interface */
+.settings-and-socicons {
+	position: fixed;
+	top: 83px;
+	right: 20px;
+}
+
+.right-interface .settings {
+	background: var(--default-btn-color) !important;
+	border: none !important;
+	flex: 0 !important;
+}
+
+.right-interface .settings:hover {
+	background: var(--default-hover-color) !important;
+}
+
+.right-interface .settings svg {
+	visibility: hidden;
+}
+
+.right-interface .settings:before {
+	position: absolute;
+	content: url(https://media.discordapp.net/attachments/523517791886770188/1146023702543220846/settings.png?width=40&height=40);
+}
+
+.soc-group:nth-child(2) svg{
+	visibility: hidden;
+}
+
+.soc-group:nth-child(2) {
+	background: var(--default-btn-color) !important;
+	border: none;
+}
+
+.soc-group:nth-child(2):hover {
+	background: var(--default-hover-color) !important;
+	border: none;
+}
+
+.soc-group:nth-child(2) .text-soc {
+	visibility: hidden;
+}
+
+.soc-group:nth-child(2) .text-soc:after {
+	visibility: visible;
+	position: absolute;
+	width: 40%;
+	margin-top: -0.5%;
+	content: "CLIENT DOWNLOAD" !important;
+	color: var(--black-color);
+	text-shadow: none;
+	font-size: 20px;
+}
+
+.settings[data-v-09fbdc66]:hover {
+	background: transparent;
+}
+
+/* Quest */
+.quests .tip-wrapper {
+	display: none;
+}
+
+.quests .quest {
+	background: transparent !important;
+}
+
+#dailyQuests .reward {
+	background: #4f4e4ead;
+}
+
+.quest .amount {
+	color: #ddd8d8;
+}
+
+.quests {
+	 position: absolute;
+	padding: 15px !important;
+	top: 170px;
+	right: 20px;
+	background: var(--black-color) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	transition: ease-in-out 0.5s
+}
+
+.tabs .event {
+	background: var(--default-btn-color) !important;
+	border: none !important;
+	border-radius: 0px !important;
+	color: var(--black-color);
+	-webkit-text-stroke: 0px;
+	text-shadow: none;
+}
+
+/* Profile-Left */
+.left-interface .progress-label {
+	display: none;
+}
+
+.left-interface .username {
+	display: none;
+}
+
+.left-interface {
+	position: fixed !important;
+	top: 88% !important;
+	background: var(--black-color);
+	width: 200%;
+	height: 50%;
+	border-top: 4px solid var(--red-color);
+}
+
+.left-interface .avatar-info {
+	background: transparent !important;
+	border: none;
+	margin-left: 1%;
+}
+
+.left-interface .user-info {
+	background: transparent !important;
+	border: none;
+	padding: 0 !important;
+	height: 0%;
+	margin-top: 1%;
+}
+
+/* Buttons */
+.button:after {
+	border: none !important;
+}
+
+.button {
+	text-shadow: none !important;
+}
