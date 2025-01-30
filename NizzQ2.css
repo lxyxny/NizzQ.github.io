@@ -92,14 +92,14 @@ Please do give credit if you decided to recolor :)
 }
 
 .interface .background{
-    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    background: url(https://i.imgur.com/oWAdDM6.jpeg) repeat !important;
     height: 300%;
     background-position: 0px 0px;
     -webkit-animation: animate 10s linear infinite!important;
 }
 
 .end-modal {
-    background: url(https://cdn.discordapp.com/attachments/919511402853580860/931100063827132456/pattern.png) repeat !important;
+    background: url(https://i.imgur.com/oWAdDM6.jpeg) repeat !important;
 }
 
 /* Loading Scene*/
@@ -495,7 +495,6 @@ Please do give credit if you decided to recolor :)
     z-index: 999!important;
 }
 
-/*
 .soc-group:nth-child(2) {
     background: url(https://media.discordapp.net/attachments/523517791886770188/947500791365787729/monitor-512.png) !important;
     background-repeat: no-repeat !important;
