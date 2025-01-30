@@ -92,14 +92,9 @@ Please do give credit if you decided to recolor :)
 }
 
 .interface .background{
-    background: url(https://i.imgur.com/oWAdDM6.jpeg) repeat !important;
+    background: url(https://www.kolpaper.com/wp-content/uploads/2020/04/Wallpaper-Depressed.jpg) repeat !important;
     height: 300%;
     background-position: 0px 0px;
-    -webkit-animation: animate 10s linear infinite!important;
-}
-
-.end-modal {
-    background: url(https://i.imgur.com/oWAdDM6.jpeg) repeat !important;
 }
 
 /* Loading Scene*/
@@ -169,7 +164,7 @@ Please do give credit if you decided to recolor :)
 	border: none !important;
 }
 
-/*
+
 .live-streams {
     background: rgba(55, 55, 55, .61);
     backdrop-filter: blur(5px);
